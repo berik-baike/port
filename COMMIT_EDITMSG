@@ -1,0 +1,571 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   port desc.zip
+#	new file:   port desc/css/main.css
+#	new file:   port desc/css/main.css.map
+#	new file:   port desc/img/contacts/contacts-icon.svg
+#	new file:   port desc/img/favicon/android-chrome-192x192.png
+#	new file:   port desc/img/favicon/android-chrome-256x256.png
+#	new file:   port desc/img/favicon/apple-touch-icon.png
+#	new file:   port desc/img/favicon/browserconfig.xml
+#	new file:   port desc/img/favicon/favicon-16x16.png
+#	new file:   port desc/img/favicon/favicon-32x32.png
+#	new file:   port desc/img/favicon/favicon.ico
+#	new file:   port desc/img/favicon/mstile-150x150.png
+#	new file:   port desc/img/favicon/safari-pinned-tab.svg
+#	new file:   port desc/img/favicon/site.webmanifest
+#	new file:   port desc/img/header-top/Git.svg
+#	new file:   port desc/img/header-top/linkedin.svg
+#	new file:   port desc/img/header/Header-Image.jpg
+#	new file:   port desc/img/header/header.jpg
+#	new file:   port desc/img/opengraph.jpg
+#	new file:   port desc/img/portfolio/Auto.jpg
+#	new file:   port desc/img/portfolio/Unit.jpg
+#	new file:   port desc/img/portfolio/image 16.jpg
+#	new file:   port desc/img/portfolio/last-site.jpg
+#	new file:   port desc/img/portfolio/site.jpg
+#	new file:   port desc/img/portfolio/travel.jpg
+#	new file:   port desc/img/skills/Group.svg
+#	new file:   port desc/img/skills/facebook.svg
+#	new file:   port desc/img/skills/insta.svg
+#	new file:   port desc/img/skills/telegram (1) 1.svg
+#	new file:   port desc/img/skills/telegram.svg
+#	new file:   port desc/img/skills/watsapp.svg
+#	new file:   "port desc/img/\320\240\320\260\320\261\320\276\321\207\320\270\320\271 \321\201\321\202\320\276\320\273.lnk"
+#	new file:   port desc/index.html
+#	new file:   port desc/js/main.js
+#	new file:   port desc/libs/jquery/jquery/jquery-3.0.0.min.js
+#	new file:   port desc/libs/mixitup/mixitup.min.js
+#	new file:   port desc/libs/pageNav/pageNav/nav.js
+#	new file:   port desc/public_html/BEM_naming/BEM naming maket.fig
+#	new file:   port desc/public_html/BEM_naming/BEM_naming.zip
+#	new file:   port desc/public_html/BEM_naming/css/main.css
+#	new file:   port desc/public_html/BEM_naming/css/second.css
+#	new file:   port desc/public_html/BEM_naming/img/Rect.jpg
+#	new file:   port desc/public_html/BEM_naming/img/Recta.jpg
+#	new file:   port desc/public_html/BEM_naming/img/Rectangle 2.jpg
+#	new file:   port desc/public_html/BEM_naming/img/macbook.jpg
+#	new file:   port desc/public_html/BEM_naming/img/phone.jpg
+#	new file:   port desc/public_html/BEM_naming/img/product.jpg
+#	new file:   port desc/public_html/BEM_naming/index.html
+#	new file:   port desc/public_html/BEM_naming/main.html
+#	new file:   port desc/public_html/Forest_Travel/contacts.html
+#	new file:   port desc/public_html/Forest_Travel/css/main.css
+#	new file:   port desc/public_html/Forest_Travel/img/articles/tracking.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/cards/card-1.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/cards/card-2.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/cards/card-3.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/cards/card-4.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/cards/card-5.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/cards/inner.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/contacts/image 1.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/header/03.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/header/arrow-down.svg
+#	new file:   port desc/public_html/Forest_Travel/img/icons/Shape.svg
+#	new file:   port desc/public_html/Forest_Travel/img/icons/check.svg
+#	new file:   port desc/public_html/Forest_Travel/img/icons/mail.svg
+#	new file:   port desc/public_html/Forest_Travel/img/icons/map-pin.svg
+#	new file:   port desc/public_html/Forest_Travel/img/main-page/01.jpg
+#	new file:   port desc/public_html/Forest_Travel/img/main-page/02.jpg
+#	new file:   port desc/public_html/Forest_Travel/index.html
+#	new file:   port desc/public_html/Forest_Travel/tours.html
+#	new file:   port desc/public_html/Forest_Travel/tracking.html
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/css/main.css
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/css/main.css.map
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/articles/tracking.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-01.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-02.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-03.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-04.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-05.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/contacts/map.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/android-chrome-192x192.png
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/android-chrome-256x256.png
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/apple-touch-icon.png
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/browserconfig.xml
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/favicon-16x16.png
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/favicon-32x32.png
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/favicon.ico
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/mstile-150x150.png
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/safari-pinned-tab.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/site.webmanifest
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/header/arrow-down.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/header/header-bg.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/header/header-small-bg.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/header/menu.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/icons/check.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/icons/mail.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/icons/map-pin.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/icons/phone.svg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/main-page/img-01.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/main-page/img-02.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/img/opengraph.jpg
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/main.html
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/base/_base.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_button.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_footer.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_header.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_main.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/logo/_logo.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/main.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/media/_mobile.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/media/_mobilexs.scss
+#	new file:   port desc/public_html/SCSS/forest-travel-scss-start/sass/media/_tablet.scss
+#	new file:   port desc/public_html/Unit/css/main.css
+#	new file:   port desc/public_html/Unit/css/main.css.map
+#	new file:   port desc/public_html/Unit/img/bg/CTA.jpg
+#	new file:   port desc/public_html/Unit/img/bg/Rect-1600.jpg
+#	new file:   port desc/public_html/Unit/img/bg/Rect-320.jpg
+#	new file:   port desc/public_html/Unit/img/bg/Rect-600.jpg
+#	new file:   port desc/public_html/Unit/img/bg/Rect-900.jpg
+#	new file:   port desc/public_html/Unit/img/bg/Rect.jpg
+#	new file:   port desc/public_html/Unit/img/bg/cta-bg-1600.jpg
+#	new file:   port desc/public_html/Unit/img/bg/cta-bg-320.jpg
+#	new file:   port desc/public_html/Unit/img/bg/cta-bg-600.jpg
+#	new file:   port desc/public_html/Unit/img/bg/cta-bg-900.jpg
+#	new file:   port desc/public_html/Unit/img/bg/cta-bg.jpg
+#	new file:   port desc/public_html/Unit/img/bg/header-01.jpg
+#	new file:   port desc/public_html/Unit/img/bg/header-1600.jpg
+#	new file:   port desc/public_html/Unit/img/bg/header-320.jpg
+#	new file:   port desc/public_html/Unit/img/bg/header-600.jpg
+#	new file:   port desc/public_html/Unit/img/bg/header-900.jpg
+#	new file:   port desc/public_html/Unit/img/devices/iPad.jpg
+#	new file:   port desc/public_html/Unit/img/devices/iPhone.jpg
+#	new file:   port desc/public_html/Unit/img/devices/opengraph.jpg
+#	new file:   port desc/public_html/Unit/img/favicon/android-chrome-192x192.png
+#	new file:   port desc/public_html/Unit/img/favicon/android-chrome-256x256.png
+#	new file:   port desc/public_html/Unit/img/favicon/apple-touch-icon.png
+#	new file:   port desc/public_html/Unit/img/favicon/browserconfig.xml
+#	new file:   port desc/public_html/Unit/img/favicon/favicon-16x16.png
+#	new file:   port desc/public_html/Unit/img/favicon/favicon-32x32.png
+#	new file:   port desc/public_html/Unit/img/favicon/favicon.ico
+#	new file:   port desc/public_html/Unit/img/favicon/mstile-150x150.png
+#	new file:   port desc/public_html/Unit/img/favicon/safari-pinned-tab.svg
+#	new file:   port desc/public_html/Unit/img/favicon/site.webmanifest
+#	new file:   port desc/public_html/Unit/img/feather-icon/arrow-left.svg
+#	new file:   port desc/public_html/Unit/img/feather-icon/arrow-right.svg
+#	new file:   port desc/public_html/Unit/img/funtional/chart-pie.svg
+#	new file:   port desc/public_html/Unit/img/funtional/file-check.svg
+#	new file:   port desc/public_html/Unit/img/funtional/microphone.svg
+#	new file:   port desc/public_html/Unit/img/funtional/money-stack.svg
+#	new file:   port desc/public_html/Unit/img/header/icon 1.svg
+#	new file:   port desc/public_html/Unit/img/header/menu 1.svg
+#	new file:   port desc/public_html/Unit/img/header/search.svg
+#	new file:   port desc/public_html/Unit/img/social/u_facebook-f.svg
+#	new file:   port desc/public_html/Unit/img/social/u_instagram.svg
+#	new file:   port desc/public_html/Unit/img/social/u_twitter.svg
+#	new file:   port desc/public_html/Unit/img/social/u_vk.svg
+#	new file:   port desc/public_html/Unit/img/users/Ellipse.jpg
+#	new file:   port desc/public_html/Unit/index.html
+#	new file:   port desc/public_html/Unit/sass/base/_base.scss
+#	new file:   port desc/public_html/Unit/sass/base/_mixins.scss
+#	new file:   port desc/public_html/Unit/sass/base/_vars.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_button-outline.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_button-round.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_button-solid.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_buttons.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_card.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_footer.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_form.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_header.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_package.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_section-clients.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_section-cta.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_section-focus.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_section-functional.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_section-price.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_section-tasks.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_slider.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_subtitle.scss
+#	new file:   port desc/public_html/Unit/sass/blocks/_title.scss
+#	new file:   port desc/public_html/Unit/sass/main.scss
+#	new file:   port desc/public_html/Unit/sass/media/_media.scss
+#	new file:   port desc/public_html/apple-watch/ber.jpg
+#	new file:   port desc/public_html/apple-watch/css/main.css
+#	new file:   port desc/public_html/apple-watch/css/reset.css
+#	new file:   port desc/public_html/apple-watch/img/apple-watch.jpg
+#	new file:   port desc/public_html/apple-watch/index.html
+#	new file:   port desc/public_html/index.html
+#	new file:   port desc/public_html/unit-scss/css/main.css
+#	new file:   port desc/public_html/unit-scss/css/main.css.map
+#	new file:   port desc/public_html/unit-scss/img/bg/CTA.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/Rect-1600.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/Rect-320.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/Rect-600.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/Rect-900.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/Rect.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/cta-bg-1600.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/cta-bg-320.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/cta-bg-600.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/cta-bg-900.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/cta-bg.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/header-01.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/header-1600.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/header-320.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/header-600.jpg
+#	new file:   port desc/public_html/unit-scss/img/bg/header-900.jpg
+#	new file:   port desc/public_html/unit-scss/img/devices/iPad.jpg
+#	new file:   port desc/public_html/unit-scss/img/devices/iPhone.jpg
+#	new file:   port desc/public_html/unit-scss/img/devices/opengraph.jpg
+#	new file:   port desc/public_html/unit-scss/img/favicon/android-chrome-192x192.png
+#	new file:   port desc/public_html/unit-scss/img/favicon/android-chrome-256x256.png
+#	new file:   port desc/public_html/unit-scss/img/favicon/apple-touch-icon.png
+#	new file:   port desc/public_html/unit-scss/img/favicon/browserconfig.xml
+#	new file:   port desc/public_html/unit-scss/img/favicon/favicon-16x16.png
+#	new file:   port desc/public_html/unit-scss/img/favicon/favicon-32x32.png
+#	new file:   port desc/public_html/unit-scss/img/favicon/favicon.ico
+#	new file:   port desc/public_html/unit-scss/img/favicon/mstile-150x150.png
+#	new file:   port desc/public_html/unit-scss/img/favicon/safari-pinned-tab.svg
+#	new file:   port desc/public_html/unit-scss/img/favicon/site.webmanifest
+#	new file:   port desc/public_html/unit-scss/img/feather-icon/arrow-left.svg
+#	new file:   port desc/public_html/unit-scss/img/feather-icon/arrow-right.svg
+#	new file:   port desc/public_html/unit-scss/img/funtional/chart-pie.svg
+#	new file:   port desc/public_html/unit-scss/img/funtional/file-check.svg
+#	new file:   port desc/public_html/unit-scss/img/funtional/microphone.svg
+#	new file:   port desc/public_html/unit-scss/img/funtional/money-stack.svg
+#	new file:   port desc/public_html/unit-scss/img/header/icon 1.svg
+#	new file:   port desc/public_html/unit-scss/img/header/menu 1.svg
+#	new file:   port desc/public_html/unit-scss/img/header/search.svg
+#	new file:   port desc/public_html/unit-scss/img/social/u_facebook-f.svg
+#	new file:   port desc/public_html/unit-scss/img/social/u_instagram.svg
+#	new file:   port desc/public_html/unit-scss/img/social/u_twitter.svg
+#	new file:   port desc/public_html/unit-scss/img/social/u_vk.svg
+#	new file:   port desc/public_html/unit-scss/img/users/Ellipse.jpg
+#	new file:   port desc/public_html/unit-scss/index.html
+#	new file:   port desc/public_html/unit-scss/sass/base/_base.scss
+#	new file:   port desc/public_html/unit-scss/sass/base/_mixins.scss
+#	new file:   port desc/public_html/unit-scss/sass/base/_vars.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_button-outline.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_button-round.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_button-solid.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_buttons.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_card.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_footer.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_form.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_header.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_package.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_section-clients.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_section-cta.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_section-focus.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_section-functional.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_section-price.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_section-tasks.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_slider.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_subtitle.scss
+#	new file:   port desc/public_html/unit-scss/sass/blocks/_title.scss
+#	new file:   port desc/public_html/unit-scss/sass/main.scss
+#	new file:   port desc/public_html/unit-scss/sass/media/_media.scss
+#	new file:   port desc/sass/base/_base.scss
+#	new file:   port desc/sass/base/_reset.scss
+#	new file:   port desc/sass/base/_vars.scss
+#	new file:   port desc/sass/blocks/_about.scss
+#	new file:   port desc/sass/blocks/_card.scss
+#	new file:   port desc/sass/blocks/_cards.scss
+#	new file:   port desc/sass/blocks/_form.scss
+#	new file:   port desc/sass/blocks/_heading.scss
+#	new file:   port desc/sass/blocks/_mobile-nav.scss
+#	new file:   port desc/sass/blocks/_nav.scss
+#	new file:   port desc/sass/blocks/_timeline.scss
+#	new file:   port desc/sass/blocks/_underline.scss
+#	new file:   port desc/sass/main.scss
+#	new file:   port desc/sass/sections/_contacts.scss
+#	new file:   port desc/sass/sections/_footer.scss
+#	new file:   port desc/sass/sections/_header-top.scss
+#	new file:   port desc/sass/sections/_header.scss
+#	new file:   port desc/sass/sections/_hw.scss
+#	new file:   port desc/sass/sections/_portfolio.scss
+#	new file:   port desc/sass/sections/_skills.scss
+#
+# Changes not staged for commit:
+#	deleted:    port desc.zip
+#	deleted:    port desc/css/main.css
+#	deleted:    port desc/css/main.css.map
+#	deleted:    port desc/img/contacts/contacts-icon.svg
+#	deleted:    port desc/img/favicon/android-chrome-192x192.png
+#	deleted:    port desc/img/favicon/android-chrome-256x256.png
+#	deleted:    port desc/img/favicon/apple-touch-icon.png
+#	deleted:    port desc/img/favicon/browserconfig.xml
+#	deleted:    port desc/img/favicon/favicon-16x16.png
+#	deleted:    port desc/img/favicon/favicon-32x32.png
+#	deleted:    port desc/img/favicon/favicon.ico
+#	deleted:    port desc/img/favicon/mstile-150x150.png
+#	deleted:    port desc/img/favicon/safari-pinned-tab.svg
+#	deleted:    port desc/img/favicon/site.webmanifest
+#	deleted:    port desc/img/header-top/Git.svg
+#	deleted:    port desc/img/header-top/linkedin.svg
+#	deleted:    port desc/img/header/Header-Image.jpg
+#	deleted:    port desc/img/header/header.jpg
+#	deleted:    port desc/img/opengraph.jpg
+#	deleted:    port desc/img/portfolio/Auto.jpg
+#	deleted:    port desc/img/portfolio/Unit.jpg
+#	deleted:    port desc/img/portfolio/image 16.jpg
+#	deleted:    port desc/img/portfolio/last-site.jpg
+#	deleted:    port desc/img/portfolio/site.jpg
+#	deleted:    port desc/img/portfolio/travel.jpg
+#	deleted:    port desc/img/skills/Group.svg
+#	deleted:    port desc/img/skills/facebook.svg
+#	deleted:    port desc/img/skills/insta.svg
+#	deleted:    port desc/img/skills/telegram (1) 1.svg
+#	deleted:    port desc/img/skills/telegram.svg
+#	deleted:    port desc/img/skills/watsapp.svg
+#	deleted:    "port desc/img/\320\240\320\260\320\261\320\276\321\207\320\270\320\271 \321\201\321\202\320\276\320\273.lnk"
+#	deleted:    port desc/index.html
+#	deleted:    port desc/js/main.js
+#	deleted:    port desc/libs/jquery/jquery/jquery-3.0.0.min.js
+#	deleted:    port desc/libs/mixitup/mixitup.min.js
+#	deleted:    port desc/libs/pageNav/pageNav/nav.js
+#	deleted:    port desc/public_html/BEM_naming/BEM naming maket.fig
+#	deleted:    port desc/public_html/BEM_naming/BEM_naming.zip
+#	deleted:    port desc/public_html/BEM_naming/css/main.css
+#	deleted:    port desc/public_html/BEM_naming/css/second.css
+#	deleted:    port desc/public_html/BEM_naming/img/Rect.jpg
+#	deleted:    port desc/public_html/BEM_naming/img/Recta.jpg
+#	deleted:    port desc/public_html/BEM_naming/img/Rectangle 2.jpg
+#	deleted:    port desc/public_html/BEM_naming/img/macbook.jpg
+#	deleted:    port desc/public_html/BEM_naming/img/phone.jpg
+#	deleted:    port desc/public_html/BEM_naming/img/product.jpg
+#	deleted:    port desc/public_html/BEM_naming/index.html
+#	deleted:    port desc/public_html/BEM_naming/main.html
+#	deleted:    port desc/public_html/Forest_Travel/contacts.html
+#	deleted:    port desc/public_html/Forest_Travel/css/main.css
+#	deleted:    port desc/public_html/Forest_Travel/img/articles/tracking.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/cards/card-1.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/cards/card-2.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/cards/card-3.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/cards/card-4.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/cards/card-5.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/cards/inner.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/contacts/image 1.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/header/03.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/header/arrow-down.svg
+#	deleted:    port desc/public_html/Forest_Travel/img/icons/Shape.svg
+#	deleted:    port desc/public_html/Forest_Travel/img/icons/check.svg
+#	deleted:    port desc/public_html/Forest_Travel/img/icons/mail.svg
+#	deleted:    port desc/public_html/Forest_Travel/img/icons/map-pin.svg
+#	deleted:    port desc/public_html/Forest_Travel/img/main-page/01.jpg
+#	deleted:    port desc/public_html/Forest_Travel/img/main-page/02.jpg
+#	deleted:    port desc/public_html/Forest_Travel/index.html
+#	deleted:    port desc/public_html/Forest_Travel/tours.html
+#	deleted:    port desc/public_html/Forest_Travel/tracking.html
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/css/main.css
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/css/main.css.map
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/articles/tracking.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-01.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-02.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-03.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-04.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/cards/card-05.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/contacts/map.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/android-chrome-192x192.png
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/android-chrome-256x256.png
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/apple-touch-icon.png
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/browserconfig.xml
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/favicon-16x16.png
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/favicon-32x32.png
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/favicon.ico
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/mstile-150x150.png
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/safari-pinned-tab.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/favicons/site.webmanifest
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/header/arrow-down.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/header/header-bg.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/header/header-small-bg.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/header/menu.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/icons/check.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/icons/mail.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/icons/map-pin.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/icons/phone.svg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/main-page/img-01.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/main-page/img-02.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/img/opengraph.jpg
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/main.html
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/base/_base.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_button.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_footer.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_header.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/block/_main.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/logo/_logo.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/main.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/media/_mobile.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/media/_mobilexs.scss
+#	deleted:    port desc/public_html/SCSS/forest-travel-scss-start/sass/media/_tablet.scss
+#	deleted:    port desc/public_html/Unit/css/main.css
+#	deleted:    port desc/public_html/Unit/css/main.css.map
+#	deleted:    port desc/public_html/Unit/img/bg/CTA.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/Rect-1600.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/Rect-320.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/Rect-600.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/Rect-900.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/Rect.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/cta-bg-1600.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/cta-bg-320.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/cta-bg-600.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/cta-bg-900.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/cta-bg.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/header-01.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/header-1600.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/header-320.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/header-600.jpg
+#	deleted:    port desc/public_html/Unit/img/bg/header-900.jpg
+#	deleted:    port desc/public_html/Unit/img/devices/iPad.jpg
+#	deleted:    port desc/public_html/Unit/img/devices/iPhone.jpg
+#	deleted:    port desc/public_html/Unit/img/devices/opengraph.jpg
+#	deleted:    port desc/public_html/Unit/img/favicon/android-chrome-192x192.png
+#	deleted:    port desc/public_html/Unit/img/favicon/android-chrome-256x256.png
+#	deleted:    port desc/public_html/Unit/img/favicon/apple-touch-icon.png
+#	deleted:    port desc/public_html/Unit/img/favicon/browserconfig.xml
+#	deleted:    port desc/public_html/Unit/img/favicon/favicon-16x16.png
+#	deleted:    port desc/public_html/Unit/img/favicon/favicon-32x32.png
+#	deleted:    port desc/public_html/Unit/img/favicon/favicon.ico
+#	deleted:    port desc/public_html/Unit/img/favicon/mstile-150x150.png
+#	deleted:    port desc/public_html/Unit/img/favicon/safari-pinned-tab.svg
+#	deleted:    port desc/public_html/Unit/img/favicon/site.webmanifest
+#	deleted:    port desc/public_html/Unit/img/feather-icon/arrow-left.svg
+#	deleted:    port desc/public_html/Unit/img/feather-icon/arrow-right.svg
+#	deleted:    port desc/public_html/Unit/img/funtional/chart-pie.svg
+#	deleted:    port desc/public_html/Unit/img/funtional/file-check.svg
+#	deleted:    port desc/public_html/Unit/img/funtional/microphone.svg
+#	deleted:    port desc/public_html/Unit/img/funtional/money-stack.svg
+#	deleted:    port desc/public_html/Unit/img/header/icon 1.svg
+#	deleted:    port desc/public_html/Unit/img/header/menu 1.svg
+#	deleted:    port desc/public_html/Unit/img/header/search.svg
+#	deleted:    port desc/public_html/Unit/img/social/u_facebook-f.svg
+#	deleted:    port desc/public_html/Unit/img/social/u_instagram.svg
+#	deleted:    port desc/public_html/Unit/img/social/u_twitter.svg
+#	deleted:    port desc/public_html/Unit/img/social/u_vk.svg
+#	deleted:    port desc/public_html/Unit/img/users/Ellipse.jpg
+#	deleted:    port desc/public_html/Unit/index.html
+#	deleted:    port desc/public_html/Unit/sass/base/_base.scss
+#	deleted:    port desc/public_html/Unit/sass/base/_mixins.scss
+#	deleted:    port desc/public_html/Unit/sass/base/_vars.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_button-outline.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_button-round.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_button-solid.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_buttons.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_card.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_footer.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_form.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_header.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_package.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_section-clients.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_section-cta.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_section-focus.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_section-functional.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_section-price.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_section-tasks.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_slider.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_subtitle.scss
+#	deleted:    port desc/public_html/Unit/sass/blocks/_title.scss
+#	deleted:    port desc/public_html/Unit/sass/main.scss
+#	deleted:    port desc/public_html/Unit/sass/media/_media.scss
+#	deleted:    port desc/public_html/apple-watch/ber.jpg
+#	deleted:    port desc/public_html/apple-watch/css/main.css
+#	deleted:    port desc/public_html/apple-watch/css/reset.css
+#	deleted:    port desc/public_html/apple-watch/img/apple-watch.jpg
+#	deleted:    port desc/public_html/apple-watch/index.html
+#	deleted:    port desc/public_html/index.html
+#	deleted:    port desc/public_html/unit-scss/css/main.css
+#	deleted:    port desc/public_html/unit-scss/css/main.css.map
+#	deleted:    port desc/public_html/unit-scss/img/bg/CTA.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/Rect-1600.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/Rect-320.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/Rect-600.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/Rect-900.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/Rect.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/cta-bg-1600.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/cta-bg-320.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/cta-bg-600.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/cta-bg-900.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/cta-bg.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/header-01.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/header-1600.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/header-320.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/header-600.jpg
+#	deleted:    port desc/public_html/unit-scss/img/bg/header-900.jpg
+#	deleted:    port desc/public_html/unit-scss/img/devices/iPad.jpg
+#	deleted:    port desc/public_html/unit-scss/img/devices/iPhone.jpg
+#	deleted:    port desc/public_html/unit-scss/img/devices/opengraph.jpg
+#	deleted:    port desc/public_html/unit-scss/img/favicon/android-chrome-192x192.png
+#	deleted:    port desc/public_html/unit-scss/img/favicon/android-chrome-256x256.png
+#	deleted:    port desc/public_html/unit-scss/img/favicon/apple-touch-icon.png
+#	deleted:    port desc/public_html/unit-scss/img/favicon/browserconfig.xml
+#	deleted:    port desc/public_html/unit-scss/img/favicon/favicon-16x16.png
+#	deleted:    port desc/public_html/unit-scss/img/favicon/favicon-32x32.png
+#	deleted:    port desc/public_html/unit-scss/img/favicon/favicon.ico
+#	deleted:    port desc/public_html/unit-scss/img/favicon/mstile-150x150.png
+#	deleted:    port desc/public_html/unit-scss/img/favicon/safari-pinned-tab.svg
+#	deleted:    port desc/public_html/unit-scss/img/favicon/site.webmanifest
+#	deleted:    port desc/public_html/unit-scss/img/feather-icon/arrow-left.svg
+#	deleted:    port desc/public_html/unit-scss/img/feather-icon/arrow-right.svg
+#	deleted:    port desc/public_html/unit-scss/img/funtional/chart-pie.svg
+#	deleted:    port desc/public_html/unit-scss/img/funtional/file-check.svg
+#	deleted:    port desc/public_html/unit-scss/img/funtional/microphone.svg
+#	deleted:    port desc/public_html/unit-scss/img/funtional/money-stack.svg
+#	deleted:    port desc/public_html/unit-scss/img/header/icon 1.svg
+#	deleted:    port desc/public_html/unit-scss/img/header/menu 1.svg
+#	deleted:    port desc/public_html/unit-scss/img/header/search.svg
+#	deleted:    port desc/public_html/unit-scss/img/social/u_facebook-f.svg
+#	deleted:    port desc/public_html/unit-scss/img/social/u_instagram.svg
+#	deleted:    port desc/public_html/unit-scss/img/social/u_twitter.svg
+#	deleted:    port desc/public_html/unit-scss/img/social/u_vk.svg
+#	deleted:    port desc/public_html/unit-scss/img/users/Ellipse.jpg
+#	deleted:    port desc/public_html/unit-scss/index.html
+#	deleted:    port desc/public_html/unit-scss/sass/base/_base.scss
+#	deleted:    port desc/public_html/unit-scss/sass/base/_mixins.scss
+#	deleted:    port desc/public_html/unit-scss/sass/base/_vars.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_button-outline.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_button-round.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_button-solid.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_buttons.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_card.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_footer.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_form.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_header.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_package.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_section-clients.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_section-cta.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_section-focus.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_section-functional.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_section-price.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_section-tasks.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_slider.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_subtitle.scss
+#	deleted:    port desc/public_html/unit-scss/sass/blocks/_title.scss
+#	deleted:    port desc/public_html/unit-scss/sass/main.scss
+#	deleted:    port desc/public_html/unit-scss/sass/media/_media.scss
+#	deleted:    port desc/sass/base/_base.scss
+#	deleted:    port desc/sass/base/_reset.scss
+#	deleted:    port desc/sass/base/_vars.scss
+#	deleted:    port desc/sass/blocks/_about.scss
+#	deleted:    port desc/sass/blocks/_card.scss
+#	deleted:    port desc/sass/blocks/_cards.scss
+#	deleted:    port desc/sass/blocks/_form.scss
+#	deleted:    port desc/sass/blocks/_heading.scss
+#	deleted:    port desc/sass/blocks/_mobile-nav.scss
+#	deleted:    port desc/sass/blocks/_nav.scss
+#	deleted:    port desc/sass/blocks/_timeline.scss
+#	deleted:    port desc/sass/blocks/_underline.scss
+#	deleted:    port desc/sass/main.scss
+#	deleted:    port desc/sass/sections/_contacts.scss
+#	deleted:    port desc/sass/sections/_footer.scss
+#	deleted:    port desc/sass/sections/_header-top.scss
+#	deleted:    port desc/sass/sections/_header.scss
+#	deleted:    port desc/sass/sections/_hw.scss
+#	deleted:    port desc/sass/sections/_portfolio.scss
+#	deleted:    port desc/sass/sections/_skills.scss
+#
+# Untracked files:
+#	css/
+#	img/
+#	index.html
+#	js/
+#	libs/
+#	public_html/
+#	sass/
+#
